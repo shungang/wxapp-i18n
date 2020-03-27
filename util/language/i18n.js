@@ -88,7 +88,7 @@ module.exports = {
 
     page.data.T = lang
     console.log('resetSetData 页面初始化' + id)
-
+    console.log(lang)
     //执行更新 绑定 所有语言key
     page.setData.call(page, page.data)
   },

@@ -16,7 +16,7 @@ Component({
   data: {
     demo: i18n.get('我知道了')
   },
-  attached: function () {
+  attached: function() {
     // 在组件实例进入页面节点树时执行
     app.i18n.resetSetData(this)
   },
@@ -24,6 +24,11 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    ChangeLang() {
+      app.i18n.resetSetData(this)
+      this.setData({
+        demo: i18n.get('我知道了')
+      })
+    }
   }
 })

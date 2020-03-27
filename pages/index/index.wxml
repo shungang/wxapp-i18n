@@ -4,5 +4,7 @@
   <view class="item">{{T['待收货']}}</view>
   <view class="item">{{ValStr}}</view>
 
-  <com></com>
+  <com id="com"></com>
+
+  <button bindtap="Change">切换语言</button>
 </view>
