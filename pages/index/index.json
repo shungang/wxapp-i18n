@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "国际化",
+  "usingComponents": {
+    "com": "./com"
+  }
+}

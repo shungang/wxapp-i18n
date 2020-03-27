@@ -1,0 +1,8 @@
+<!-- pages/index/index.wxml -->
+<view class='container'>
+  <view class="item">{{T['百货家居']}}</view>
+  <view class="item">{{T['待收货']}}</view>
+  <view class="item">{{ValStr}}</view>
+
+  <com></com>
+</view>

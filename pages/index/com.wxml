@@ -1,0 +1,5 @@
+<!--pages/index/com.wxml-->
+<view>
+  <view>{{demo}}</view>
+  <view>{{T['已收货']}}</view>
+</view>
